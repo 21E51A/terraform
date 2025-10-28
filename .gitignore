@@ -1,3 +1,8 @@
-*.txt
+# Terraform ignored files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
 *.backup
-*.hcl
