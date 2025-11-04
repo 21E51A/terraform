@@ -7,3 +7,6 @@ override.tf
 override.tf.json
 *.backup
 .terraform/
+
+# Terraform lock file
+.terraform.lock.hcl
