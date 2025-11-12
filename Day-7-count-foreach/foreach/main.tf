@@ -1,0 +1,12 @@
+variable "env" {
+  type = list(string)
+  default = [ "surya","akash" ]
+}
+resource "aws_instance" "name" {
+  ami = "ami-07860a2d7eb515d9a"
+  instance_type = "t3.micro"
+  for_each = toset(var.env)
+  tags = {
+    Name = each.value
+  }
+}
