@@ -1,4 +1,3 @@
 variable "ami_id" {}
-    variable "instance_type" {}
-    variable "subnet_2_id" {}
-  
+variable "instance_type" {}
+variable "subnet_1_id" {}
