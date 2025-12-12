@@ -1,6 +1,6 @@
 resource "aws_instance" "name" {
-    ami=""
-    instance_type=""
+    ami="ami-080c353f4798a202f"
+    instance_type="t2.micro"
   
 }
 resource "aws_vpc" "name" {
