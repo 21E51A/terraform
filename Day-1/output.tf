@@ -1,4 +1,4 @@
-output "publicIP" {
+//output "publicIP" {
   value = aws_instance.name.private_ip
 }
 output "AZ" {
