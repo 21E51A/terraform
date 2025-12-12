@@ -1,4 +1,4 @@
-resource "aws_instance" "name111" { 
+resource "aws_instance" "name11" { 
     instance_type = var.type
      ami = var.ami_id
     
