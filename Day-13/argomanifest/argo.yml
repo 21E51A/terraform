@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudTechDevOps/Kubernetes.git
+    repoURL: https://github.com/21E51A/terraform.git
     targetRevision: HEAD
-    path: day-14-argocd
-  destination: 
+    path: Day-13
+  destination:
     server: https://kubernetes.default.svc
     namespace: myapp
 
@@ -21,3 +21,4 @@ spec:
     automated:
       selfHeal: true
       prune: true
+~   
